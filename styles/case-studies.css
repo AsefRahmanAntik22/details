@@ -1,0 +1,174 @@
+.case-studies-section {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 60px 20px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.case-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.case-subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.case-study {
+  margin-bottom: 60px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.intro {
+  text-align: center;
+  font-size: 14px;
+  color: #050000;
+  margin-bottom: 40px;
+}
+
+.case-study {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.case-study:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.case-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.case-image {
+  flex: 1;
+  text-align: center;
+}
+
+.case-image img {
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.tag.fintech {
+  background-color: #ffc107;
+}
+
+.tag.edtech {
+  background-color: #4f8eff;
+  color: #090101;
+}
+
+.tag.pharma {
+  background-color: #00d1b2;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 14px;
+  color: #090101;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn.fintech {
+  background-color: #ffc107;
+}
+
+.btn.edtech {
+  background-color: #4f8eff;
+  color: #080101;
+}
+
+.btn.pharma {
+  background-color: #00d1b2;
+}
+
+@media (max-width: 992px) {
+  .case-study {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .case-study:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .case-content, 
+  .case-image {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .case-title {
+    font-size: 26px;
+  }
+
+  .case-subtitle {
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .case-title {
+    font-size: 22px;
+  }
+
+  .case-subtitle,
+  .intro {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+}
+
+
