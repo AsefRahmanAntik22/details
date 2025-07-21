@@ -145,7 +145,7 @@
   box-shadow: 0 0 15px #3f9c00;
 }
 
-/* Carousel Styles */
+
 .carousel {
   display: flex;
   align-items: center;
@@ -203,7 +203,7 @@
   right: 10px;
 }
 
-/* Tablets */
+
 @media (max-width: 768px) {
   .work-grid {
     gap: 30px;
@@ -228,7 +228,7 @@
   }
 }
 
-/* Phones */
+
 @media (max-width: 576px) {
   .Recent-study {
     margin-bottom: 40px;

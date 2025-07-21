@@ -27,10 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const track = document.querySelector('.carousel-track');
   const prevBtn = document.querySelector('.prev');
   const nextBtn = document.querySelector('.next');
-  let cardWidth = document.querySelector('.work-card').offsetWidth + 30;
+  let cardWidth = document.querySelector('.work-grid').offsetWidth + 30;
 
   window.addEventListener('resize', () => {
-    cardWidth = document.querySelector('.work-card').offsetWidth + 30;
+    cardWidth = document.querySelector('.work-grid').offsetWidth + 30;
   });
   prevBtn.addEventListener('click', () => {
     track.scrollBy({ left: -cardWidth, behavior: 'smooth' });
